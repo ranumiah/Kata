@@ -1,14 +1,19 @@
 ﻿namespace AreaCalculation
 {
-    internal class Rectangle
+    internal class Rectangle : ICalculateShapeArea
     {
-        private double height;
-        private double width;
+        private double _height;
+        private double _width;
 
         public Rectangle(double height, double width)
         {
-            this.height = height;
-            this.width = width;
+            _height = height;
+            _width = width;
+        }
+
+        public double GetTotalArea()
+        {
+            return _height*_width;
         }
     }
 }

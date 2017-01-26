@@ -6,37 +6,38 @@ namespace AreaCalculation
     {
         public double GetTotalArea(Triangle triangle)
         {
-            throw new System.NotImplementedException();
+           return triangle.GetTotalArea();
         }
 
         internal double GetTotalArea(Rectangle rectangle1, Rectangle rectangle2, Circle circle, Square square, Triangle triangle)
         {
-            throw new NotImplementedException();
+            return rectangle1.GetTotalArea() + rectangle2.GetTotalArea() + circle.GetTotalArea() + square.GetTotalArea() +
+                   triangle.GetTotalArea();
         }
 
         internal double GetTotalArea(Rectangle rectangle1, Rectangle rectangle2)
         {
-            throw new NotImplementedException();
+            return Math.Round(rectangle1.GetTotalArea() + rectangle2.GetTotalArea(), 2);
         }
 
         internal double GetTotalArea()
         {
-            throw new NotImplementedException();
+            return 0;
         }
 
         internal double GetTotalArea(Circle circle)
         {
-            throw new NotImplementedException();
+            return circle.GetTotalArea();
         }
 
         internal double GetTotalArea(Square square)
         {
-            throw new NotImplementedException();
+            return square.GetTotalArea();
         }
 
         internal double GetTotalArea(Rectangle rectangle)
         {
-            throw new NotImplementedException();
+            return rectangle.GetTotalArea();
         }
     }
 }

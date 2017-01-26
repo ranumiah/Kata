@@ -5,7 +5,7 @@ namespace AreaCalculation
     [TestFixture]
     public class AreaCalculationTests
     {
-        private Calculator sut = new Calculator();
+        private Calculator _sut = new Calculator();
 
         [Test]
         public void AreaOfATriangleIsBaseMultipliedByHeight()
@@ -15,7 +15,7 @@ namespace AreaCalculation
 
             var triangle = new Triangle(triangleBase, triangleHeight);
 
-            Assert.AreEqual(12, sut.GetTotalArea(triangle));
+            Assert.AreEqual(12, _sut.GetTotalArea(triangle));
         }
 
         [Test]
@@ -25,7 +25,7 @@ namespace AreaCalculation
 
             var square = new Square(side);
 
-            Assert.AreEqual(36, sut.GetTotalArea(square));
+            Assert.AreEqual(36, _sut.GetTotalArea(square));
         }
 
         [Test]
@@ -36,7 +36,7 @@ namespace AreaCalculation
 
             var rectangle = new Rectangle(height, width);
 
-            Assert.AreEqual(32, sut.GetTotalArea(rectangle));
+            Assert.AreEqual(32, _sut.GetTotalArea(rectangle));
         }
 
         [Test]
@@ -46,25 +46,25 @@ namespace AreaCalculation
 
             var circle = new Circle(radius);
 
-            Assert.AreEqual(28.27, sut.GetTotalArea(circle));
+            Assert.AreEqual(28.27, _sut.GetTotalArea(circle));
         }
 
         [Test]
         public void TotalAreaIsSumOfAreasOfDifferentShapes()
         {
-            Assert.AreEqual(49.14, sut.GetTotalArea(new Rectangle(4, 2), new Rectangle(3, 4), new Circle(1), new Square(1), new Triangle(10, 5)));
+            Assert.AreEqual(49.14, _sut.GetTotalArea(new Rectangle(4, 2), new Rectangle(3, 4), new Circle(1), new Square(1), new Triangle(10, 5)));
         }
 
         [Test]
         public void TotalAreaIsRoundedTo2Decimals()
         {
-            Assert.AreEqual(4.45, sut.GetTotalArea(new Rectangle(1.112, 2), new Rectangle(1.111, 2)));
+            Assert.AreEqual(4.45, _sut.GetTotalArea(new Rectangle(1.112, 2), new Rectangle(1.111, 2)));
         }
 
         [Test]
         public void TotalAreaIs0WhenThereAreNoShapes()
         {
-            Assert.AreEqual(0, sut.GetTotalArea());
+            Assert.AreEqual(0, _sut.GetTotalArea());
         }
     }
 }

@@ -1,14 +1,19 @@
 ﻿namespace AreaCalculation
 {
-    internal class Triangle
+    internal class Triangle : ICalculateShapeArea
     {
-        private double triangleBase;
-        private double triangleHeight;
+        private double _triangleBase;
+        private double _triangleHeight;
 
         public Triangle(double triangleBase, double triangleHeight)
         {
-            this.triangleBase = triangleBase;
-            this.triangleHeight = triangleHeight;
+            this._triangleBase = triangleBase;
+            this._triangleHeight = triangleHeight;
+        }
+
+        public double GetTotalArea()
+        {
+            return _triangleBase*_triangleHeight/2;
         }
     }
 }

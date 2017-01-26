@@ -1,12 +1,19 @@
-﻿namespace AreaCalculation
+﻿using System;
+
+namespace AreaCalculation
 {
-    internal class Circle
+    internal class Circle : ICalculateShapeArea
     {
-        private double radius;
+        private double _radius;
 
         public Circle(double radius)
         {
-            this.radius = radius;
+            this._radius = radius;
+        }
+
+        public double GetTotalArea()
+        {
+            return Math.Round(Math.PI * _radius * _radius, 2);
         }
     }
 }

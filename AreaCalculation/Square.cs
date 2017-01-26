@@ -1,12 +1,17 @@
 ﻿namespace AreaCalculation
 {
-    internal class Square
+    internal class Square : ICalculateShapeArea
     {
-        private double side;
+        private double _side;
 
         public Square(double side)
         {
-            this.side = side;
+            this._side = side;
+        }
+
+        public double GetTotalArea()
+        {
+            return _side*_side;
         }
     }
 }
