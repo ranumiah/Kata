@@ -64,4 +64,18 @@ Complete the code so that we can create a MarioAdapter that can attack as other 
 
 Note to calculate how much damage mario is going to do you have to call the jumpAttack method.
 
+Resouces
+
+PatternCraft > Adapter
+SourceMaking > Adapter
+Wikipedia > Adapter
+PatternCraft series
+
+State Pattern
+Strategy Pattern
+Visitor Pattern
+Decorator Pattern
+Adapter Pattern
+Command Pattern
+The original PatternCraft series (by John Lindquist) is a collection of Youtube videos that explains some of the design patterns and how they are used (or could be) on StarCraft.
 FUNDAMENTALSDESIGN PATTERNSDESIGN PRINCIPLES
