@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternCraft - Visitor", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternCraft - Strategy", "Patterns\PatternCraft - Strategy\PatternCraft - Strategy.csproj", "{1094FF45-F0B8-4146-871C-359E3071B19B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfDivisors", "NumberOfDivisors\NumberOfDivisors.csproj", "{83009A2F-96BD-41DA-AB30-CCC9E009A75E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeSumDivisors", "CubeSumDivisors\CubeSumDivisors.csproj", "{3F0A1047-555B-4DA5-B84A-47C5B88735EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{1094FF45-F0B8-4146-871C-359E3071B19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1094FF45-F0B8-4146-871C-359E3071B19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1094FF45-F0B8-4146-871C-359E3071B19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83009A2F-96BD-41DA-AB30-CCC9E009A75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83009A2F-96BD-41DA-AB30-CCC9E009A75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83009A2F-96BD-41DA-AB30-CCC9E009A75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83009A2F-96BD-41DA-AB30-CCC9E009A75E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0A1047-555B-4DA5-B84A-47C5B88735EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0A1047-555B-4DA5-B84A-47C5B88735EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0A1047-555B-4DA5-B84A-47C5B88735EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0A1047-555B-4DA5-B84A-47C5B88735EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
