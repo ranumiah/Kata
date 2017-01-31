@@ -8,13 +8,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculation", "AreaCalculation\AreaCalculation.csproj", "{35194859-829A-4CE8-B50F-47EC2C1527C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{60FE9D86-4960-411D-9233-645A780FA758}"
-	ProjectSection(SolutionItems) = preProject
-		Patterns\GeesetoDucks-Adapter\Instruction.md = Patterns\GeesetoDucks-Adapter\Instruction.md
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternCraft-Adaptor", "Patterns\PatternCraft-Adaptor\PatternCraft-Adaptor.csproj", "{9A2440BF-F10F-45F6-9333-D86BBBF74520}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternCraft-Decorator", "Patterns\PatternCraft-Decorator\PatternCraft-Decorator.csproj", "{9B3E31AC-7B71-42F4-9108-9E597B95DB55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternCraft - State", "Patterns\PatternCraft - State\PatternCraft - State.csproj", "{FC4B17B0-51A7-4A46-B712-1AAC5E4C4F5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +37,10 @@ Global
 		{9B3E31AC-7B71-42F4-9108-9E597B95DB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B3E31AC-7B71-42F4-9108-9E597B95DB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B3E31AC-7B71-42F4-9108-9E597B95DB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4B17B0-51A7-4A46-B712-1AAC5E4C4F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4B17B0-51A7-4A46-B712-1AAC5E4C4F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4B17B0-51A7-4A46-B712-1AAC5E4C4F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4B17B0-51A7-4A46-B712-1AAC5E4C4F5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +48,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9A2440BF-F10F-45F6-9333-D86BBBF74520} = {60FE9D86-4960-411D-9233-645A780FA758}
 		{9B3E31AC-7B71-42F4-9108-9E597B95DB55} = {60FE9D86-4960-411D-9233-645A780FA758}
+		{FC4B17B0-51A7-4A46-B712-1AAC5E4C4F5A} = {60FE9D86-4960-411D-9233-645A780FA758}
 	EndGlobalSection
 EndGlobal
